@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-09-22T23:39:15 IST" name="Automation Test Suite" finished-at="2024-09-22T23:39:28 IST" duration-ms="13303">
+    <groups>
+    </groups>
+    <test started-at="2024-09-22T23:39:15 IST" name="Web Tests" finished-at="2024-09-22T23:39:21 IST" duration-ms="5796">
+      <class name="com.automationpro.SwagLabsLogin">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.automationpro.SwagLabsLogin@790da477]" started-at="2024-09-22T23:39:15 IST" name="setup" finished-at="2024-09-22T23:39:20 IST" duration-ms="5055" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="loginTest()[pri:0, instance:com.automationpro.SwagLabsLogin@790da477]" started-at="2024-09-22T23:39:20 IST" name="loginTest" finished-at="2024-09-22T23:39:20 IST" duration-ms="483" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.automationpro.SwagLabsLogin@790da477]" started-at="2024-09-22T23:39:20 IST" name="teardown" finished-at="2024-09-22T23:39:21 IST" duration-ms="210" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.automationpro.SwagLabsLogin -->
+    </test> <!-- Web Tests -->
+    <test started-at="2024-09-22T23:39:21 IST" name="API Tests" finished-at="2024-09-22T23:39:23 IST" duration-ms="2222">
+      <class name="com.automationpro.ReqResAPI">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.automationpro.ReqResAPI@7dfd3c81]" started-at="2024-09-22T23:39:21 IST" name="setup" finished-at="2024-09-22T23:39:21 IST" duration-ms="369" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="createUserTest()[pri:0, instance:com.automationpro.ReqResAPI@7dfd3c81]" started-at="2024-09-22T23:39:21 IST" name="createUserTest" finished-at="2024-09-22T23:39:23 IST" duration-ms="1849" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createUserTest -->
+      </class> <!-- com.automationpro.ReqResAPI -->
+    </test> <!-- API Tests -->
+    <test started-at="2024-09-22T23:39:23 IST" name="Mobile Tests" finished-at="2024-09-22T23:39:28 IST" duration-ms="5232">
+      <class name="com.automationpro.AndroidApp">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.automationpro.AndroidApp@1f9e9475]" started-at="2024-09-22T23:39:23 IST" name="setup" finished-at="2024-09-22T23:39:27 IST" duration-ms="4124" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="loginTest()[pri:0, instance:com.automationpro.AndroidApp@1f9e9475]" started-at="2024-09-22T23:39:27 IST" name="loginTest" finished-at="2024-09-22T23:39:27 IST" duration-ms="120" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method signature="searchProductTest()[pri:0, instance:com.automationpro.AndroidApp@1f9e9475]" started-at="2024-09-22T23:39:27 IST" name="searchProductTest" finished-at="2024-09-22T23:39:28 IST" depends-on-methods="com.automationpro.AndroidApp.loginTest" duration-ms="791" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchProductTest -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.automationpro.AndroidApp@1f9e9475]" started-at="2024-09-22T23:39:28 IST" name="teardown" finished-at="2024-09-22T23:39:28 IST" duration-ms="190" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.automationpro.AndroidApp -->
+    </test> <!-- Mobile Tests -->
+  </suite> <!-- Automation Test Suite -->
+</testng-results>
